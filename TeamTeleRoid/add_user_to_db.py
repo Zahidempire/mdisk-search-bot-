@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+# (c) @CyniteBots
 
 from configs import Config
 from handlers.database import db
