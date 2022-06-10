@@ -32,12 +32,11 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup"),
-             InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")],
-            [InlineKeyboardButton("♻ Help", callback_data="Help_msg"),
-             InlineKeyboardButton("👥 About", callback_data="About_msg")],
-            [InlineKeyboardButton(" Add Your Bots Here ", callback_data="addbots")],
-            [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")],
+             [InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14"),
+            InlineKeyboardButton("♻ Help", callback_data="Help_msg")],
+             [InlineKeyboardButton("👥 About", callback_data="About_msg"), 
+            InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
     )
 
