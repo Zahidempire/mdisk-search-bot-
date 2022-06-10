@@ -13,9 +13,9 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is a TeleGram BotList Search Bot of @CyniteBots And Some Other Bots Available On TeleGram.
+    ABOUT_BOT_TEXT = """<b>This is a TeleGram Search Bot of @Aks_support01_bot And Some Other Bots Available On TeleGram.
 
-🤖 My Name: <a href='https://t.me/mdisk1_search_bot'> Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ </a>
+🤖 My Name: <a href='https://t.me/mdisk1_search_bot'> Mᴅɪsᴋ Sᴇᴀʀᴄʜ ʙᴏᴛ </a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
