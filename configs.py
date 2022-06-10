@@ -13,7 +13,7 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is a TeleGram BotList Search Bot of @TheTeleRoid And Some Other Bots Available On TeleGram.
+    ABOUT_BOT_TEXT = """<b>This is a TeleGram BotList Search Bot of @CyniteBots And Some Other Bots Available On TeleGram.
 
 🤖 My Name: <a href='https://t.me/Mdisk_SearchRobot'> Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ </a>
 
@@ -35,24 +35,6 @@ class Config(object):
     ABOUT_HELP_TEXT = """<b>👨‍💻 Developers : <a href='https://t.me/CyniteOfficial'>ᴄʏɴɪᴛᴇ-ᴏғғɪᴄɪᴀʟ</a>
 
 Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.
-
-Choose Your Bot Category Here 🤗
-
-☛ RENAMER_BOTS
-☛ FILE_TO_LINK_BOTS
-☛ GDRIVE_BOTS
-☛ URL_UPLOADER_BOTS
-☛ YOUTUBE_DOWNLOAD_BOTS
-☛ FILE_CONVERTOR_BOTS
-☛ UNZIP_BOTS
-☛ SCREENSHOT_BOT
-☛ GOOGLE_TRANSLATION_BOTS
-☛ TORRENT_DOWNLOADER_BOTS
-☛ DMCA_REMOVAL_BOTS
-☛ WATERMARK_BOT
-☛ VIDEO_MERGER_BOTS
-
-**These Bots can Do Multiple things with different Functions**:-
 
 🌀 I will help you to find Best Telegram Bots.
 
