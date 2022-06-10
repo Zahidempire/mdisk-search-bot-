@@ -1,6 +1,6 @@
 {
-    "name": "This is Inline BotList Search Bot by @AbirHasan2005 for TeleGram",
-    "description": "This is Inline Channel Messages Search Bot by @PredatorHackerZ in Pyrogram by @AbirHasan2005",
+    "name": "This is Inline BotList Search Bot by @cyniteofficial for TeleGram",
+    "description": "This is Inline Channel Messages Search Bot by @cyniteofficial in Pyrogram by @AbirHasan2005",
     "keywords": [
         "telegram",
         "channel",
@@ -8,7 +8,7 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/PredatorHackerzZ/MessageSearchBot",
+    "repository": "https://github.com/CyniteOfficial/cynitesecretbot",
     "website": "https://telegram.dog/TheTeleRoid",
     "success_url": "https://t.me/PHListBot",
     "env": {
