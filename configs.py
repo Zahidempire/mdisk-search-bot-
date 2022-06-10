@@ -59,14 +59,9 @@ Bots are simply Telegram accounts operated by software – not people – and t
 
 
     START_MSG = """
-<b>👋 Hey !{}, This is Online Search Mdisk Bot <a href='https://t.me/Mdisk_SearchRobot'>Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ</a>.
+<b>👋 Hey !{} 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/Mdisk_SearchRobot'>Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ</a>
 
-<a> Modified By : @Cyniteofficial</a>
-
-       <a> Credits goes to Everyone Who Supported.</b>
-
-<a> Made With ❤ By @CyniteOfficial </a>
-"""
+<a> 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥
     ADD_BOTS = """<b>Heya! {} If You Want to Add Your Bots In @Cyniteofficial then Contact Admin From Below Given Groups</b>"""
 
 
