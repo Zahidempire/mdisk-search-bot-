@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is a TeleGram BotList Search Bot of @TheTeleRoid And Some Other Bots Available On TeleGram.
 
-🤖 My Name: <a href='https://t.me/PHListBot'> @PHListBot </a>
+🤖 My Name: <a href='https://t.me/Mdisk_SearchRobot'> Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ </a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,16 +23,16 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'> Heroku </a>
 
-👨‍💻 Modified By: <a href='https://t.me/PredatorHackerzZ'>@HelpLessBoi</a>
+👨‍💻 Modified By: <a href='https://t.me/CyniteBots'>ᴄʏɴɪᴛᴇ-ʙᴏᴛs</a>
 
-🌀 Github Repo: <a href='https://github.com/PredatorHackerzZ/MessageSearchBot'>Click Me</a>
+🌀 Youtube: <a href='https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ'>ᴄʟɪᴄᴋ ᴍᴇ</a>
 
-👥 Bots Support: <a href='https://t.me/teleroid14'>@TeleRoid14</a>
+👥 Bots Support: <a href='https://t.me/CyniteOfficial'>ᴄʏɴɪᴛᴇ</a>
 
-📢 Bots Updates: <a href='https://t.me/teleroidgroup'>@TeleRoidGroup</a></b>
+📢 Bots Updates: <a href='https://t.me/CyniteBots'>ᴄʏɴɪᴛᴇ-ʙᴏᴛs</a></b>
 """
     
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developers : <a href='https://t.me/PredatorHackerzZ'>@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫𝐇𝐚𝐜𝐤𝐞𝐫𝐳𝐙</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developers : <a href='https://t.me/CyniteOfficial'>ᴄʏɴɪᴛᴇ-ᴏғғɪᴄɪᴀʟ</a>
 
 Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.
 
@@ -56,35 +56,35 @@ Choose Your Bot Category Here 🤗
 
 🌀 I will help you to find Best Telegram Bots.
 
-🌀 If you Get Any Error In Searching Please Report at **@TeleRoid14**.
+🌀 If you Get Any Error In Searching Please Report at **@Cyniteofficial**.
 
-🌀 Our Project Channel: <a href='https://t.me/TeleRoidGroup'>@TeleRoidGroup</a>.
+🌀 Our Project Channel: <a href='https://t.me/Cynitebots'>ᴄʏɴɪᴛᴇ-ʙᴏᴛs</a>.
 
 🌀 All Bots Based On Users and Developer Demands. 
 
-🤖 Join For All Available Bots On Telegram: @TGRobot_List.
+🤖 Join For All Available Bots On Telegram: @CyniteBots.
 """
     
     HOME_TEXT = """
-<b>👋 Hey !{}, This is Online Search Botlist Bot <a href='https://t.me/PHListBot'>@PHListBot</a>.
+<b>👋 Hey !{}, This is Online Search Botlist Bot <a href='https://t.me/cyniteBots/4523'>ᴄʏɴɪᴛᴇ</a>.
 
-<a> Modified By : @PredatorHackerzZ</a>
+<a> Modified By : @Cyniteofficial</a>
 
        <a> Credits goes to Everyone Who Supported.</b>
 
-<a> Made With ❤ By @TheTeleRoid </a>
+<a> Made With ❤ By @CyniteOfficial </a>
 """
 
 
     START_MSG = """
-<b>👋 Hey !{}, This is Online Search Botlist Bot <a href='https://t.me/PHListBot'>@PHListBot</a>.
+<b>👋 Hey !{}, This is Online Search Mdisk Bot <a href='https://t.me/Mdisk_SearchRobot'>Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ</a>.
 
-<a> Modified By : @PredatorHackerzZ</a>
+<a> Modified By : @Cyniteofficial</a>
 
        <a> Credits goes to Everyone Who Supported.</b>
 
-<a> Made With ❤ By @TheTeleRoid </a>
+<a> Made With ❤ By @CyniteOfficial </a>
 """
-    ADD_BOTS = """<b>Heya! {} If You Want to Add Your Bots In @PHListBot then Contact Admin From Below Given Groups</b>"""
+    ADD_BOTS = """<b>Heya! {} If You Want to Add Your Bots In @Cyniteofficial then Contact Admin From Below Given Groups</b>"""
 
 
