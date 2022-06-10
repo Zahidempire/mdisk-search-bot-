@@ -36,7 +36,7 @@ async def start_handler(_, event: Message):
              [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/CyniteBots"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
              [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
-            InlineKeyboardButton("🔍Search", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+            InlineKeyboardButton("🔍Search", switch_inline_query_current_chat="")]
         ])
     )
 
