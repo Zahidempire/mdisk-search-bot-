@@ -23,7 +23,7 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'> Heroku </a>
 
-👨‍💻 Modified By: <a href='https://t.me/Imdb_updates'>Imdbu-pdates</a>
+👨‍💻 Modified By: <a href='https://t.me/Imdb_updates'>Imdb-updates</a>
 
 🌀 Youtube: <a href='https://youtube.com/c/TechnicalAks01'>Technical Aks</a>
 
