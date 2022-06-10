@@ -1,7 +1,7 @@
 # (c) @PredatorHackerzZ
 # I just made this for searching a channel message from inline.
 # Maybe you can use this for something else.
-# I first made this for @TGBotListBot ...
+# I first made this for @CyniteBots ...
 # Edit according to your use.
 
 from configs import Config
@@ -48,7 +48,7 @@ async def help_handler(_, event: Message):
             [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/CyniteBots"),
              InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/CyniteMovies"), 
              InlineKeyboardButton("👥 About", callback_data="About_msg")],
-            [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+            [InlineKeyboardButton("Search Inlin", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
     )
 
