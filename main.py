@@ -171,7 +171,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("♻ About", callback_data="About_msg")
 					],
                                         [
-						InlineKeyboardButton("+ Add Your Bots Here + ", callback_data="addbots")
+						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
