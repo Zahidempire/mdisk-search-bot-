@@ -175,7 +175,7 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
-						InlineKeyboardButton("yo Inline", switch_inline_query="")
+						InlineKeyboardButton("Go Inline", switch_inline_query="")
 					]
 				]
 			),
