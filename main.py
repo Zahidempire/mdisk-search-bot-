@@ -32,8 +32,8 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")],
-             [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/CyniteBots"),
+            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/mdisk1_search_bot?startgroup=true")],
+             [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Imdb_updates"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
              [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
             InlineKeyboardButton("🔍Search", switch_inline_query_current_chat="")]
@@ -45,8 +45,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/CyniteBots"),
-             InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/CyniteMovies"), 
+            [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/Aks_support01_bot"),
+             InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/technicalaks1"), 
              InlineKeyboardButton("👥 About", callback_data="About_msg")],
             [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
@@ -65,23 +65,23 @@ async def inline_handlers(_, event: InlineQuery):
                 input_message_content=InputTextMessageContent(
                     message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."
 
-                                  "<a>@CyniteOfficial || @CyniteBots</a>"
+                                  "<a>@Aks_support01_bot || @Imdb_updates</a>"
 
                                   "<a>🔴 YouTube Channel :</a>"
 
-                                  "<a>https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ </a>"
+                                  "<a>https://youtube.com/c/TechnicalAks01 </a>"
 
-                                  "<a>👥 BotSupport : @CyniteOfficial </a>"
+                                  "<a>👥 BotSupport : @Imdb_updates</a> </a>"
 
 
-                                  "<a> Follow Our Bot Updates Channel : @CyniteBots</a>",
+                                  "<a> Follow Our Bot Updates Channel : @Imdb_updates</a>",
                     disable_web_page_preview=True
                 ),
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("Search Here", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("Cynite Bots", url="https://t.me/CyniteBots"),
-                     InlineKeyboardButton("Bots Support", url="https://t.me/CyniteOfficial")],
-                    [InlineKeyboardButton("TeleGram Bots", url="https://t.me/cyniteBots/4523")]
+                    [InlineKeyboardButton("Cynite Bots", url="https://t.me/Imdb_updates</a>"),
+                     InlineKeyboardButton("Bots Support", url="https://t.me/Imdb_updates")],
+                    [InlineKeyboardButton("TeleGram Bots", url="https://t.me/Imdb_updates")]
                 ])
             )
         )
@@ -127,11 +127,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("💢 Movies Channel", callback_data="https://t.me/CyniteMovies"),
-						InlineKeyboardButton("🚸 Powered By", url="https://t.me/CyniteBots")
+						InlineKeyboardButton("💢 Movies Channel", callback_data="https://t.me/technicalaks1"),
+						InlineKeyboardButton("🚸 Powered By", url="https://t.me/Aks_support01_bot")
 					],
 					[
-						InlineKeyboardButton("👨‍💻 Developer ", url="https://t.me/CyniteOfficial"),
+						InlineKeyboardButton("👨‍💻 Developer ", url="https://t.me/Aks_support01_bot"),
 						InlineKeyboardButton("🏠 Home", callback_data="gohome")
 					]
 				]
@@ -146,10 +146,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
-						InlineKeyboardButton("💢 Github Repo", url="https://t.me/CyniteOfficial")
+						InlineKeyboardButton("💢 Github Repo", url="https://t.me/Aks_support01_bot")
 					], 
                                         [
-						InlineKeyboardButton("Bot List", url="https://t.me/cyniteBots/4523"),
+						InlineKeyboardButton("Bot List", url="https://t.me/Imdb_updates"),
 						InlineKeyboardButton("🏠 Home", callback_data="gohome")
 					]
 				]
@@ -163,15 +163,15 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/CyniteOfficial"),
-						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/CyniteBots")
+						InlineKeyboardButton("🛑 Support 🛑", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/Imdb_updates")
 					],
                                         [
 						InlineKeyboardButton("👥 Help", callback_data="Help_msg"),
 						InlineKeyboardButton("♻ About", callback_data="About_msg")
 					],
                                         [
-						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")
+						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/mdisk1_search_bot?startgroup=true")
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
@@ -188,16 +188,16 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👥Bot Support", url="https://t.me/CyniteOfficial"),
-						InlineKeyboardButton("🎥Movies Channel", url="https://t.me/CyniteMovies")
+						InlineKeyboardButton("👥Bot Support", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("🎥Movies Channel", url="https://t.me/technicalaks1")
 					],
 					[
-						InlineKeyboardButton("🤖Bot Channel", url="https://t.me/CyniteBots"),
-						InlineKeyboardButton("📃Bots List", url="https://t.me/cyniteBots/4523")
+						InlineKeyboardButton("🤖Bot Channel", url="https://t.me/Imdb_updates"),
+						InlineKeyboardButton("📃Bots List", url="https://t.me/Imdb_updates")
 					], 
                                         [
-						InlineKeyboardButton("👥Developer", url="https://t.me/CyniteOfficial"),
-						InlineKeyboardButton("🔰Youtube", url="https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ")
+						InlineKeyboardButton("👥Developer", url="https://t.me/Aks_support01_bot"),
+						InlineKeyboardButton("🔰Youtube", url="https://youtube.com/c/TechnicalAks01")
 					], 
                                         [
 						InlineKeyboardButton("🏠 Home ", callback_data="gohome")
