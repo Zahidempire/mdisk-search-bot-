@@ -1,4 +1,4 @@
-# (c) @PredatorHackerzZ
+# (c) @CyniteBots
 
 import time
 import string
