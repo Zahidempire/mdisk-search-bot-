@@ -48,7 +48,7 @@ async def help_handler(_, event: Message):
             [InlineKeyboardButton("🚸 Pᴏᴡᴇʀᴇᴅ Bʏ", url="https://t.me/CyniteBots"),
              InlineKeyboardButton("🌱 Movies Channel ", url="https://t.me/CyniteMovies"), 
              InlineKeyboardButton("👥 About", callback_data="About_msg")],
-            [InlineKeyboardButton("Search Inlin", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
+            [InlineKeyboardButton("Search Inline", switch_inline_query_current_chat=""), InlineKeyboardButton("Go Inline", switch_inline_query="")]
         ])
     )
 
@@ -175,7 +175,7 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
-						InlineKeyboardButton("Go Inline", switch_inline_query="")
+						InlineKeyboardButton("yo Inline", switch_inline_query="")
 					]
 				]
 			),
