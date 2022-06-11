@@ -36,7 +36,7 @@ async def start_handler(_, event: Message):
              [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Imdb_updates"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
              [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
-            InlineKeyboardButton("🔍Search", switch_inline_query_current_chat="")]
+            InlineKeyboardButton("🔍Search Movie", switch_inline_query_current_chat="")]
         ])
     )
 
@@ -79,7 +79,7 @@ async def inline_handlers(_, event: InlineQuery):
                 ),
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("Search Here", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("Cynite Bots", url="https://t.me/Imdb_updates</a>"),
+                    [InlineKeyboardButton("Imdb Bots", url="https://t.me/Imdb_updates</a>"),
                      InlineKeyboardButton("Bots Support", url="https://t.me/Imdb_updates")],
                     [InlineKeyboardButton("TeleGram Bots", url="https://t.me/Imdb_updates")]
                 ])
