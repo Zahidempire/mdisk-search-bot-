@@ -61,7 +61,7 @@ async def inline_handlers(_, event: InlineQuery):
             InlineQueryResultArticle(
                 title="This is Inline BotList Search Bot 🔍",
                 description="You Can Search All Bots Available On TeleGram.",
-                thumb_url="https://telegra.ph/file/0242d4a31893317806277.jpg", 
+                thumb_url="https://telegra.ph/file/ecc27617f6cf390b47d79.jpg", 
                 input_message_content=InputTextMessageContent(
                     message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."
 
