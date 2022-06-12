@@ -1,7 +1,7 @@
 # (c) @PredatorHackerzZ
 # I just made this for searching a channel message from inline.
 # Maybe you can use this for something else.
-# I first made this for @CyniteBots ...
+# I first made this for @Aks_support01_bot ...
 # Edit according to your use.
 
 from configs import Config
