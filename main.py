@@ -34,7 +34,7 @@ async def start_handler(_, event: Message):
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="https://t.me/mdisk1_search_bot?startgroup=true")],
              [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Imdb_updates"),
-            InlineKeyboardButton("HOW TO SEARCH", url="https://youtu.be/RFFNapr91WM"),
+             InlineKeyboardButton("HOW TO SEARCH", url="https://youtu.be/RFFNapr91WM"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
              [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
             InlineKeyboardButton("🔍Search Movie", switch_inline_query_current_chat="")]
